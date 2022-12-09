@@ -5,6 +5,7 @@ import Hello from "./Component/Hello";
 import Welcome from "./Component/Welcome";
 import Title from "./Component/Title";
 import MyName from "./Component/MyName";
+import Form from "./Component/Form";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Title name="Mobile developer" />
       <Title name="Solidity developer" />
       <MyName/>
+      <Form/>
     </div>
   );
 }
